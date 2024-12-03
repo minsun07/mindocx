@@ -3,7 +3,7 @@
 #include <Aspose.Words.Cpp/Drawing/Shape.h>                                                    // 그림, 도형을 삽입 및 위치를 위한 클래스
 #include <Aspose.Words.Cpp/Drawing/RelativeHorizontalPosition.h> 
 #include <Aspose.Words.Cpp/Drawing/RelativeVerticalPosition.h> 
-#include <Aspose.Words.Cpp/Drawing/WrapType.h>                                                 
+//#include <Aspose.Words.Cpp/Drawing/WrapType.h>                                                 
 #include <Aspose.Words.Cpp/Font.h>                                                              // 폰트 디자인을 위한 클래스
 #include <iostream>
 
