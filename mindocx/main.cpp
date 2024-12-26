@@ -12,14 +12,14 @@
 
 using namespace Aspose::Words;                                                                 // 문서 생성 및 조작을 위한 클래스가 포함
 using namespace Aspose::Words::Drawing;                                                        // 문서에 도형 및 그래픽 요소를 다룸
-using namespace System;                                                                        // Aspose 라이브러리에서 사용되는 주요 데이터 타입(SharedPtr 등)을 포함
+using namespace System;                                                                        // Aspose라이브러리에서 사용되는 주요 데이터 타입(SharedPtr 등)을 포함
 using namespace std;
 
 // cURL 응답 데이터를 처리하는 콜백 함수
 size_t WriteCallback(void* contents, size_t size, size_t nmemb, void* userp) {
     ((string*)userp)->append((char*)contents, size * nmemb);
     return size * nmemb;
-}
+} 
 
 int main() {
     try {
